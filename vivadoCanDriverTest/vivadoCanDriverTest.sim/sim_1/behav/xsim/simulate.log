@@ -1,0 +1,11 @@
+Time resolution is 1 ps
+(4000000) Writing register [6] with 0x1
+Stopped at time : 4718750 ps : File "/home/lic9/prj/MCUCANDRIVER/vivadoCanDriverTest/vivadoCanDriverTest.srcs/sources_1/imports/MCUCANDRIVER/can_top_split.v" Line 766
+(4845000) Reading register [6] = 0x0
+Stopped at time : 5156250 ps : File "/home/lic9/prj/MCUCANDRIVER/vivadoCanDriverTest/vivadoCanDriverTest.srcs/sources_1/imports/MCUCANDRIVER/can_top_split.v" Line 766
+(5282000) Reading register [6] = 0x0
+$stop called at time : 5282250 ps : File "/home/lic9/prj/MCUCANDRIVER/vivadoCanDriverTest/vivadoCanDriverTest.srcs/sim_1/new/can_transceiver_com_tb.v" Line 124
+(4000000) Writing register [6] with 0x1
+Stopped at time : 4718750 ps : File "/home/lic9/prj/MCUCANDRIVER/vivadoCanDriverTest/vivadoCanDriverTest.srcs/sources_1/imports/MCUCANDRIVER/can_top_split.v" Line 766
+(4845000) Reading register [6] = 0x0
+Stopped at time : 5156250 ps : File "/home/lic9/prj/MCUCANDRIVER/vivadoCanDriverTest/vivadoCanDriverTest.srcs/sources_1/imports/MCUCANDRIVER/can_top_split.v" Line 766

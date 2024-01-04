@@ -1,0 +1,4 @@
+Breakpoint File Version 1.0
+894,true,"/home/lic9/prj/MCUCANDRIVER/vivadoCanDriverTest/vivadoCanDriverTest.srcs/sources_1/imports/MCUCANDRIVER/can_top_split.v"
+766,true,"/home/lic9/prj/MCUCANDRIVER/vivadoCanDriverTest/vivadoCanDriverTest.srcs/sources_1/imports/MCUCANDRIVER/can_top_split.v"
+893,true,"/home/lic9/prj/MCUCANDRIVER/vivadoCanDriverTest/vivadoCanDriverTest.srcs/sources_1/imports/MCUCANDRIVER/can_top_split.v"

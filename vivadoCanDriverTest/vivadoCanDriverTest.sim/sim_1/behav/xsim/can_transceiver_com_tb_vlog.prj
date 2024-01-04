@@ -1,0 +1,27 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../vivadoCanDriverTest.srcs/sources_1/imports/MCUCANDRIVER/rtl/verilog" --include "../../../../vivadoCanDriverTest.srcs/sources_1/imports/MCUCANDRIVER/bench/verilog" \
+"../../../../vivadoCanDriverTest.srcs/sources_1/imports/MCUCANDRIVER/rtl/verilog/can_acf.v" \
+"../../../../vivadoCanDriverTest.srcs/sources_1/imports/MCUCANDRIVER/rtl/verilog/can_bsp.v" \
+"../../../../vivadoCanDriverTest.srcs/sources_1/imports/MCUCANDRIVER/rtl/verilog/can_btl.v" \
+"../../../../vivadoCanDriverTest.srcs/sources_1/imports/MCUCANDRIVER/rtl/verilog/can_crc.v" \
+"../../../../vivadoCanDriverTest.srcs/sources_1/imports/MCUCANDRIVER/rtl/verilog/can_fifo.v" \
+"../../../../vivadoCanDriverTest.srcs/sources_1/imports/MCUCANDRIVER/rtl/verilog/can_ibo.v" \
+"../../../../vivadoCanDriverTest.srcs/sources_1/imports/MCUCANDRIVER/rtl/verilog/can_register.v" \
+"../../../../vivadoCanDriverTest.srcs/sources_1/imports/MCUCANDRIVER/rtl/verilog/can_register_asyn.v" \
+"../../../../vivadoCanDriverTest.srcs/sources_1/imports/MCUCANDRIVER/rtl/verilog/can_register_asyn_syn.v" \
+"../../../../vivadoCanDriverTest.srcs/sources_1/imports/MCUCANDRIVER/rtl/verilog/can_registers.v" \
+"../../../../vivadoCanDriverTest.srcs/sources_1/imports/MCUCANDRIVER/can_top_split.v" \
+"../../../../vivadoCanDriverTest.srcs/sources_1/new/can_transceiver.v" \
+"../../../../vivadoCanDriverTest.ip_user_files/bd/can_split/ip/can_split_can_top_split_0_0/sim/can_split_can_top_split_0_0.v" \
+"../../../../vivadoCanDriverTest.ip_user_files/bd/can_split/ip/can_split_can_top_split_1_0/sim/can_split_can_top_split_1_0.v" \
+"../../../../vivadoCanDriverTest.ip_user_files/bd/can_split/ip/can_split_can_transceiver_0_0/sim/can_split_can_transceiver_0_0.v" \
+"../../../../vivadoCanDriverTest.ip_user_files/bd/can_split/ip/can_split_can_transceiver_0_1/sim/can_split_can_transceiver_0_1.v" \
+"../../../../vivadoCanDriverTest.ip_user_files/bd/can_split/sim/can_split.v" \
+"../../../../vivadoCanDriverTest.gen/sources_1/bd/can_split/hdl/can_split_wrapper.v" \
+"../../../../vivadoCanDriverTest.srcs/sim_1/new/can_transceiver_com_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

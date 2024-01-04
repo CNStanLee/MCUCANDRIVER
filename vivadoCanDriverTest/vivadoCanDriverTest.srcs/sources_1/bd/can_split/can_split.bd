@@ -1,0 +1,469 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x8070B44BC88AFBAA",
+      "device": "xc7a200tsbg484-1",
+      "gen_directory": "../../../../vivadoCanDriverTest.gen/sources_1/bd/can_split",
+      "name": "can_split",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2023.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "can_top_split_0": "",
+      "can_top_split_1": "",
+      "can_transceiver_0": "",
+      "can_transceiver_1": ""
+    },
+    "ports": {
+      "clk_0": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "ASSOCIATED_RESET": {
+            "value": "rst_i_0:rst_0",
+            "value_src": "default"
+          },
+          "CLK_DOMAIN": {
+            "value": "can_split_clk_0",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000",
+            "value_src": "default"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.0",
+            "value_src": "default"
+          }
+        }
+      },
+      "cs_can_1": {
+        "direction": "I"
+      },
+      "ale_1": {
+        "direction": "I"
+      },
+      "port_i_1": {
+        "direction": "I",
+        "left": "7",
+        "right": "0"
+      },
+      "rd_1": {
+        "direction": "I"
+      },
+      "wr_1": {
+        "direction": "I"
+      },
+      "port_o_1": {
+        "direction": "O",
+        "left": "7",
+        "right": "0"
+      },
+      "cs_can_2": {
+        "direction": "I"
+      },
+      "ale_2": {
+        "direction": "I"
+      },
+      "port_i_2": {
+        "direction": "I",
+        "left": "7",
+        "right": "0"
+      },
+      "rd_2": {
+        "direction": "I"
+      },
+      "wr_2": {
+        "direction": "I"
+      },
+      "port_o_2": {
+        "direction": "O",
+        "left": "7",
+        "right": "0"
+      },
+      "rst_0": {
+        "direction": "I"
+      }
+    },
+    "components": {
+      "can_top_split_0": {
+        "vlnv": "xilinx.com:module_ref:can_top_split:1.0",
+        "ip_revision": "1",
+        "xci_name": "can_split_can_top_split_0_0",
+        "xci_path": "ip/can_split_can_top_split_0_0/can_split_can_top_split_0_0.xci",
+        "inst_hier_path": "can_top_split_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "can_top_split",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "rst_i": {
+            "direction": "I"
+          },
+          "ale_i": {
+            "direction": "I"
+          },
+          "rd_i": {
+            "direction": "I"
+          },
+          "wr_i": {
+            "direction": "I"
+          },
+          "port_0_i": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          },
+          "port_0_o": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          },
+          "cs_can_i": {
+            "direction": "I"
+          },
+          "clk_i": {
+            "direction": "I",
+            "parameters": {
+              "FREQ_HZ": {
+                "value": "100000000",
+                "value_src": "default_prop"
+              },
+              "PHASE": {
+                "value": "0.0",
+                "value_src": "default_prop"
+              },
+              "CLK_DOMAIN": {
+                "value": "can_split_clk_0",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "rx_i": {
+            "direction": "I"
+          },
+          "tx_o": {
+            "direction": "O"
+          },
+          "bus_off_on": {
+            "direction": "O"
+          },
+          "irq_on": {
+            "direction": "O"
+          },
+          "clkout_o": {
+            "direction": "O"
+          }
+        }
+      },
+      "can_top_split_1": {
+        "vlnv": "xilinx.com:module_ref:can_top_split:1.0",
+        "ip_revision": "1",
+        "xci_name": "can_split_can_top_split_1_0",
+        "xci_path": "ip/can_split_can_top_split_1_0/can_split_can_top_split_1_0.xci",
+        "inst_hier_path": "can_top_split_1",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "can_top_split",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "rst_i": {
+            "direction": "I"
+          },
+          "ale_i": {
+            "direction": "I"
+          },
+          "rd_i": {
+            "direction": "I"
+          },
+          "wr_i": {
+            "direction": "I"
+          },
+          "port_0_i": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          },
+          "port_0_o": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          },
+          "cs_can_i": {
+            "direction": "I"
+          },
+          "clk_i": {
+            "direction": "I",
+            "parameters": {
+              "FREQ_HZ": {
+                "value": "100000000",
+                "value_src": "default_prop"
+              },
+              "PHASE": {
+                "value": "0.0",
+                "value_src": "default_prop"
+              },
+              "CLK_DOMAIN": {
+                "value": "can_split_clk_0",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "rx_i": {
+            "direction": "I"
+          },
+          "tx_o": {
+            "direction": "O"
+          },
+          "bus_off_on": {
+            "direction": "O"
+          },
+          "irq_on": {
+            "direction": "O"
+          },
+          "clkout_o": {
+            "direction": "O"
+          }
+        }
+      },
+      "can_transceiver_0": {
+        "vlnv": "xilinx.com:module_ref:can_transceiver:1.0",
+        "ip_revision": "1",
+        "xci_name": "can_split_can_transceiver_0_0",
+        "xci_path": "ip/can_split_can_transceiver_0_0/can_split_can_transceiver_0_0.xci",
+        "inst_hier_path": "can_transceiver_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "can_transceiver",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "rst",
+                "value_src": "constant"
+              },
+              "CLK_DOMAIN": {
+                "value": "can_split_clk_0",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "rst": {
+            "type": "rst",
+            "direction": "I",
+            "parameters": {
+              "POLARITY": {
+                "value": "ACTIVE_HIGH"
+              }
+            }
+          },
+          "tx": {
+            "direction": "I"
+          },
+          "can_tx": {
+            "direction": "O"
+          },
+          "rx": {
+            "direction": "O"
+          },
+          "can_rx": {
+            "direction": "I"
+          }
+        }
+      },
+      "can_transceiver_1": {
+        "vlnv": "xilinx.com:module_ref:can_transceiver:1.0",
+        "ip_revision": "1",
+        "xci_name": "can_split_can_transceiver_0_1",
+        "xci_path": "ip/can_split_can_transceiver_0_1/can_split_can_transceiver_0_1.xci",
+        "inst_hier_path": "can_transceiver_1",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "can_transceiver",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "rst",
+                "value_src": "constant"
+              },
+              "CLK_DOMAIN": {
+                "value": "can_split_clk_0",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "rst": {
+            "type": "rst",
+            "direction": "I",
+            "parameters": {
+              "POLARITY": {
+                "value": "ACTIVE_HIGH"
+              }
+            }
+          },
+          "tx": {
+            "direction": "I"
+          },
+          "can_tx": {
+            "direction": "O"
+          },
+          "rx": {
+            "direction": "O"
+          },
+          "can_rx": {
+            "direction": "I"
+          }
+        }
+      }
+    },
+    "nets": {
+      "ale_i_0_1": {
+        "ports": [
+          "ale_1",
+          "can_top_split_0/ale_i"
+        ]
+      },
+      "ale_i_1_1": {
+        "ports": [
+          "ale_2",
+          "can_top_split_1/ale_i"
+        ]
+      },
+      "can_top_split_0_port_0_o": {
+        "ports": [
+          "can_top_split_0/port_0_o",
+          "port_o_1"
+        ]
+      },
+      "can_top_split_0_tx_o": {
+        "ports": [
+          "can_top_split_0/tx_o",
+          "can_transceiver_0/tx"
+        ]
+      },
+      "can_top_split_1_port_0_o": {
+        "ports": [
+          "can_top_split_1/port_0_o",
+          "port_o_2"
+        ]
+      },
+      "can_top_split_1_tx_o": {
+        "ports": [
+          "can_top_split_1/tx_o",
+          "can_transceiver_1/tx"
+        ]
+      },
+      "can_transceiver_0_can_tx": {
+        "ports": [
+          "can_transceiver_0/can_tx",
+          "can_transceiver_1/can_rx"
+        ]
+      },
+      "can_transceiver_0_rx": {
+        "ports": [
+          "can_transceiver_0/rx",
+          "can_top_split_0/rx_i"
+        ]
+      },
+      "can_transceiver_1_can_tx": {
+        "ports": [
+          "can_transceiver_1/can_tx",
+          "can_transceiver_0/can_rx"
+        ]
+      },
+      "can_transceiver_1_rx": {
+        "ports": [
+          "can_transceiver_1/rx",
+          "can_top_split_1/rx_i"
+        ]
+      },
+      "clk_0_1": {
+        "ports": [
+          "clk_0",
+          "can_top_split_0/clk_i",
+          "can_top_split_1/clk_i",
+          "can_transceiver_0/clk",
+          "can_transceiver_1/clk"
+        ]
+      },
+      "cs_can_i_0_1": {
+        "ports": [
+          "cs_can_1",
+          "can_top_split_0/cs_can_i"
+        ]
+      },
+      "cs_can_i_1_1": {
+        "ports": [
+          "cs_can_2",
+          "can_top_split_1/cs_can_i"
+        ]
+      },
+      "port_0_i_0_1": {
+        "ports": [
+          "port_i_1",
+          "can_top_split_0/port_0_i"
+        ]
+      },
+      "port_0_i_1_1": {
+        "ports": [
+          "port_i_2",
+          "can_top_split_1/port_0_i"
+        ]
+      },
+      "rd_i_0_1": {
+        "ports": [
+          "rd_1",
+          "can_top_split_0/rd_i"
+        ]
+      },
+      "rd_i_1_1": {
+        "ports": [
+          "rd_2",
+          "can_top_split_1/rd_i"
+        ]
+      },
+      "rst_i_0_1": {
+        "ports": [
+          "rst_0",
+          "can_top_split_0/rst_i",
+          "can_top_split_1/rst_i",
+          "can_transceiver_0/rst",
+          "can_transceiver_1/rst"
+        ]
+      },
+      "wr_i_0_1": {
+        "ports": [
+          "wr_1",
+          "can_top_split_0/wr_i"
+        ]
+      },
+      "wr_i_1_1": {
+        "ports": [
+          "wr_2",
+          "can_top_split_1/wr_i"
+        ]
+      }
+    }
+  }
+}

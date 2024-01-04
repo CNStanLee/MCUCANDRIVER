@@ -1,0 +1,59 @@
+{
+  "schema": "xilinx.com:schema:json_instance:1.0",
+  "ip_inst": {
+    "xci_name": "can_split_can_top_split_1_0",
+    "cell_name": "can_top_split_1",
+    "component_reference": "xilinx.com:module_ref:can_top_split:1.0",
+    "ip_revision": "1",
+    "gen_directory": "../../../../../../vivadoCanDriverTest.gen/sources_1/bd/can_split/ip/can_split_can_top_split_1_0",
+    "parameters": {
+      "component_parameters": {
+        "Tp": [ { "value": "1", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "Component_Name": [ { "value": "can_split_can_top_split_1_0", "resolve_type": "user", "usage": "all" } ]
+      },
+      "model_parameters": {
+        "Tp": [ { "value": "1", "resolve_type": "generated", "format": "long", "usage": "all" } ]
+      },
+      "project_parameters": {
+        "ARCHITECTURE": [ { "value": "artix7" } ],
+        "BASE_BOARD_PART": [ { "value": "digilentinc.com:nexys_video:part0:1.2" } ],
+        "BOARD_CONNECTIONS": [ { "value": "" } ],
+        "DEVICE": [ { "value": "xc7a200t" } ],
+        "PACKAGE": [ { "value": "sbg484" } ],
+        "PREFHDL": [ { "value": "VERILOG" } ],
+        "SILICON_REVISION": [ { "value": "" } ],
+        "SIMULATOR_LANGUAGE": [ { "value": "MIXED" } ],
+        "SPEEDGRADE": [ { "value": "-1" } ],
+        "STATIC_POWER": [ { "value": "" } ],
+        "TEMPERATURE_GRADE": [ { "value": "" } ]
+      },
+      "runtime_parameters": {
+        "IPCONTEXT": [ { "value": "IP_Integrator" } ],
+        "IPREVISION": [ { "value": "1" } ],
+        "MANAGED": [ { "value": "TRUE" } ],
+        "OUTPUTDIR": [ { "value": "../../../../../../vivadoCanDriverTest.gen/sources_1/bd/can_split/ip/can_split_can_top_split_1_0" } ],
+        "SELECTEDSIMMODEL": [ { "value": "" } ],
+        "SHAREDDIR": [ { "value": "../../ipshared" } ],
+        "SWVERSION": [ { "value": "2023.2" } ],
+        "SYNTHESISFLOW": [ { "value": "OOC_HIERARCHICAL" } ]
+      }
+    },
+    "boundary": {
+      "ports": {
+        "rst_i": [ { "direction": "in" } ],
+        "ale_i": [ { "direction": "in" } ],
+        "rd_i": [ { "direction": "in" } ],
+        "wr_i": [ { "direction": "in" } ],
+        "port_0_i": [ { "direction": "in", "size_left": "7", "size_right": "0" } ],
+        "port_0_o": [ { "direction": "out", "size_left": "7", "size_right": "0" } ],
+        "cs_can_i": [ { "direction": "in" } ],
+        "clk_i": [ { "direction": "in" } ],
+        "rx_i": [ { "direction": "in" } ],
+        "tx_o": [ { "direction": "out" } ],
+        "bus_off_on": [ { "direction": "out" } ],
+        "irq_on": [ { "direction": "out" } ],
+        "clkout_o": [ { "direction": "out" } ]
+      }
+    }
+  }
+}

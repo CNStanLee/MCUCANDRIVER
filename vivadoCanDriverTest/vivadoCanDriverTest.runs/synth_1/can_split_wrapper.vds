@@ -1,0 +1,244 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Thu Jan  4 18:20:03 2024
+# Process ID: 1065895
+# Current directory: /home/lic9/prj/MCUCANDRIVER/vivadoCanDriverTest/vivadoCanDriverTest.runs/synth_1
+# Command line: vivado -log can_split_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source can_split_wrapper.tcl
+# Log file: /home/lic9/prj/MCUCANDRIVER/vivadoCanDriverTest/vivadoCanDriverTest.runs/synth_1/can_split_wrapper.vds
+# Journal file: /home/lic9/prj/MCUCANDRIVER/vivadoCanDriverTest/vivadoCanDriverTest.runs/synth_1/vivado.jou
+# Running On: administrator-Precision-3660, OS: Linux, CPU Frequency: 2349.311 MHz, CPU Physical cores: 12, Host memory: 33319 MB
+#-----------------------------------------------------------
+source can_split_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2023.2/data/ip'.
+Command: synth_design -top can_split_wrapper -part xc7a200tsbg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: [Device 21-403] Loading part xc7a200tsbg484-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 1066014
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2102.531 ; gain = 402.715 ; free physical = 6202 ; free virtual = 33371
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'can_split_wrapper' [/home/lic9/prj/MCUCANDRIVER/vivadoCanDriverTest/vivadoCanDriverTest.gen/sources_1/bd/can_split/hdl/can_split_wrapper.v:13]
+INFO: [Synth 8-6157] synthesizing module 'can_split' [/home/lic9/prj/MCUCANDRIVER/vivadoCanDriverTest/vivadoCanDriverTest.gen/sources_1/bd/can_split/synth/can_split.v:13]
+INFO: [Synth 8-6157] synthesizing module 'can_split_can_top_split_0_0' [/home/lic9/prj/MCUCANDRIVER/vivadoCanDriverTest/vivadoCanDriverTest.runs/synth_1/.Xil/Vivado-1065895-administrator-Precision-3660/realtime/can_split_can_top_split_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'can_split_can_top_split_0_0' (0#1) [/home/lic9/prj/MCUCANDRIVER/vivadoCanDriverTest/vivadoCanDriverTest.runs/synth_1/.Xil/Vivado-1065895-administrator-Precision-3660/realtime/can_split_can_top_split_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'bus_off_on' of module 'can_split_can_top_split_0_0' is unconnected for instance 'can_top_split_0' [/home/lic9/prj/MCUCANDRIVER/vivadoCanDriverTest/vivadoCanDriverTest.gen/sources_1/bd/can_split/synth/can_split.v:79]
+WARNING: [Synth 8-7071] port 'irq_on' of module 'can_split_can_top_split_0_0' is unconnected for instance 'can_top_split_0' [/home/lic9/prj/MCUCANDRIVER/vivadoCanDriverTest/vivadoCanDriverTest.gen/sources_1/bd/can_split/synth/can_split.v:79]
+WARNING: [Synth 8-7071] port 'clkout_o' of module 'can_split_can_top_split_0_0' is unconnected for instance 'can_top_split_0' [/home/lic9/prj/MCUCANDRIVER/vivadoCanDriverTest/vivadoCanDriverTest.gen/sources_1/bd/can_split/synth/can_split.v:79]
+WARNING: [Synth 8-7023] instance 'can_top_split_0' of module 'can_split_can_top_split_0_0' has 13 connections declared, but only 10 given [/home/lic9/prj/MCUCANDRIVER/vivadoCanDriverTest/vivadoCanDriverTest.gen/sources_1/bd/can_split/synth/can_split.v:79]
+INFO: [Synth 8-6157] synthesizing module 'can_split_can_top_split_1_0' [/home/lic9/prj/MCUCANDRIVER/vivadoCanDriverTest/vivadoCanDriverTest.runs/synth_1/.Xil/Vivado-1065895-administrator-Precision-3660/realtime/can_split_can_top_split_1_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'can_split_can_top_split_1_0' (0#1) [/home/lic9/prj/MCUCANDRIVER/vivadoCanDriverTest/vivadoCanDriverTest.runs/synth_1/.Xil/Vivado-1065895-administrator-Precision-3660/realtime/can_split_can_top_split_1_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'bus_off_on' of module 'can_split_can_top_split_1_0' is unconnected for instance 'can_top_split_1' [/home/lic9/prj/MCUCANDRIVER/vivadoCanDriverTest/vivadoCanDriverTest.gen/sources_1/bd/can_split/synth/can_split.v:90]
+WARNING: [Synth 8-7071] port 'irq_on' of module 'can_split_can_top_split_1_0' is unconnected for instance 'can_top_split_1' [/home/lic9/prj/MCUCANDRIVER/vivadoCanDriverTest/vivadoCanDriverTest.gen/sources_1/bd/can_split/synth/can_split.v:90]
+WARNING: [Synth 8-7071] port 'clkout_o' of module 'can_split_can_top_split_1_0' is unconnected for instance 'can_top_split_1' [/home/lic9/prj/MCUCANDRIVER/vivadoCanDriverTest/vivadoCanDriverTest.gen/sources_1/bd/can_split/synth/can_split.v:90]
+WARNING: [Synth 8-7023] instance 'can_top_split_1' of module 'can_split_can_top_split_1_0' has 13 connections declared, but only 10 given [/home/lic9/prj/MCUCANDRIVER/vivadoCanDriverTest/vivadoCanDriverTest.gen/sources_1/bd/can_split/synth/can_split.v:90]
+INFO: [Synth 8-6157] synthesizing module 'can_split_can_transceiver_0_0' [/home/lic9/prj/MCUCANDRIVER/vivadoCanDriverTest/vivadoCanDriverTest.runs/synth_1/.Xil/Vivado-1065895-administrator-Precision-3660/realtime/can_split_can_transceiver_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'can_split_can_transceiver_0_0' (0#1) [/home/lic9/prj/MCUCANDRIVER/vivadoCanDriverTest/vivadoCanDriverTest.runs/synth_1/.Xil/Vivado-1065895-administrator-Precision-3660/realtime/can_split_can_transceiver_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'can_split_can_transceiver_0_1' [/home/lic9/prj/MCUCANDRIVER/vivadoCanDriverTest/vivadoCanDriverTest.runs/synth_1/.Xil/Vivado-1065895-administrator-Precision-3660/realtime/can_split_can_transceiver_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'can_split_can_transceiver_0_1' (0#1) [/home/lic9/prj/MCUCANDRIVER/vivadoCanDriverTest/vivadoCanDriverTest.runs/synth_1/.Xil/Vivado-1065895-administrator-Precision-3660/realtime/can_split_can_transceiver_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'can_split' (0#1) [/home/lic9/prj/MCUCANDRIVER/vivadoCanDriverTest/vivadoCanDriverTest.gen/sources_1/bd/can_split/synth/can_split.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'can_split_wrapper' (0#1) [/home/lic9/prj/MCUCANDRIVER/vivadoCanDriverTest/vivadoCanDriverTest.gen/sources_1/bd/can_split/hdl/can_split_wrapper.v:13]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2176.500 ; gain = 476.684 ; free physical = 6107 ; free virtual = 33277
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2194.312 ; gain = 494.496 ; free physical = 6105 ; free virtual = 33274
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2194.312 ; gain = 494.496 ; free physical = 6105 ; free virtual = 33274
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2194.312 ; gain = 0.000 ; free physical = 6105 ; free virtual = 33274
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/lic9/prj/MCUCANDRIVER/vivadoCanDriverTest/vivadoCanDriverTest.gen/sources_1/bd/can_split/ip/can_split_can_top_split_0_0/can_split_can_top_split_0_0/can_split_can_top_split_0_0_in_context.xdc] for cell 'can_split_i/can_top_split_0'
+Finished Parsing XDC File [/home/lic9/prj/MCUCANDRIVER/vivadoCanDriverTest/vivadoCanDriverTest.gen/sources_1/bd/can_split/ip/can_split_can_top_split_0_0/can_split_can_top_split_0_0/can_split_can_top_split_0_0_in_context.xdc] for cell 'can_split_i/can_top_split_0'
+Parsing XDC File [/home/lic9/prj/MCUCANDRIVER/vivadoCanDriverTest/vivadoCanDriverTest.gen/sources_1/bd/can_split/ip/can_split_can_top_split_1_0/can_split_can_top_split_1_0/can_split_can_top_split_1_0_in_context.xdc] for cell 'can_split_i/can_top_split_1'
+Finished Parsing XDC File [/home/lic9/prj/MCUCANDRIVER/vivadoCanDriverTest/vivadoCanDriverTest.gen/sources_1/bd/can_split/ip/can_split_can_top_split_1_0/can_split_can_top_split_1_0/can_split_can_top_split_1_0_in_context.xdc] for cell 'can_split_i/can_top_split_1'
+Parsing XDC File [/home/lic9/prj/MCUCANDRIVER/vivadoCanDriverTest/vivadoCanDriverTest.gen/sources_1/bd/can_split/ip/can_split_can_transceiver_0_0/can_split_can_transceiver_0_0/can_split_can_transceiver_0_0_in_context.xdc] for cell 'can_split_i/can_transceiver_0'
+Finished Parsing XDC File [/home/lic9/prj/MCUCANDRIVER/vivadoCanDriverTest/vivadoCanDriverTest.gen/sources_1/bd/can_split/ip/can_split_can_transceiver_0_0/can_split_can_transceiver_0_0/can_split_can_transceiver_0_0_in_context.xdc] for cell 'can_split_i/can_transceiver_0'
+Parsing XDC File [/home/lic9/prj/MCUCANDRIVER/vivadoCanDriverTest/vivadoCanDriverTest.gen/sources_1/bd/can_split/ip/can_split_can_transceiver_0_1/can_split_can_transceiver_0_1/can_split_can_transceiver_0_1_in_context.xdc] for cell 'can_split_i/can_transceiver_1'
+Finished Parsing XDC File [/home/lic9/prj/MCUCANDRIVER/vivadoCanDriverTest/vivadoCanDriverTest.gen/sources_1/bd/can_split/ip/can_split_can_transceiver_0_1/can_split_can_transceiver_0_1/can_split_can_transceiver_0_1_in_context.xdc] for cell 'can_split_i/can_transceiver_1'
+Parsing XDC File [/home/lic9/prj/MCUCANDRIVER/vivadoCanDriverTest/vivadoCanDriverTest.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/lic9/prj/MCUCANDRIVER/vivadoCanDriverTest/vivadoCanDriverTest.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2267.250 ; gain = 0.000 ; free physical = 6092 ; free virtual = 33263
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2267.285 ; gain = 0.000 ; free physical = 6092 ; free virtual = 33263
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2267.285 ; gain = 567.469 ; free physical = 6060 ; free virtual = 33265
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a200tsbg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2267.285 ; gain = 567.469 ; free physical = 6060 ; free virtual = 33265
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for can_split_i. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for can_split_i/can_top_split_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for can_split_i/can_top_split_1. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for can_split_i/can_transceiver_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for can_split_i/can_transceiver_1. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2267.285 ; gain = 567.469 ; free physical = 6060 ; free virtual = 33265
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2267.285 ; gain = 567.469 ; free physical = 6059 ; free virtual = 33265
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 740 (col length:100)
+BRAMs: 730 (col length: RAMB18 100 RAMB36 50)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2267.285 ; gain = 567.469 ; free physical = 6057 ; free virtual = 33261
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 2267.285 ; gain = 567.469 ; free physical = 6057 ; free virtual = 33258
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 2267.285 ; gain = 567.469 ; free physical = 6057 ; free virtual = 33258
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 2267.285 ; gain = 567.469 ; free physical = 6057 ; free virtual = 33258
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 2267.285 ; gain = 567.469 ; free physical = 6055 ; free virtual = 33260
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 2267.285 ; gain = 567.469 ; free physical = 6055 ; free virtual = 33260
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 2267.285 ; gain = 567.469 ; free physical = 6055 ; free virtual = 33260
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 2267.285 ; gain = 567.469 ; free physical = 6055 ; free virtual = 33260
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 2267.285 ; gain = 567.469 ; free physical = 6055 ; free virtual = 33260
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 2267.285 ; gain = 567.469 ; free physical = 6055 ; free virtual = 33260
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+------------------------------+----------+
+|      |BlackBox name                 |Instances |
++------+------------------------------+----------+
+|1     |can_split_can_top_split_0_0   |         1|
+|2     |can_split_can_top_split_1_0   |         1|
+|3     |can_split_can_transceiver_0_0 |         1|
+|4     |can_split_can_transceiver_0_1 |         1|
++------+------------------------------+----------+
+
+Report Cell Usage: 
++------+----------------------------+------+
+|      |Cell                        |Count |
++------+----------------------------+------+
+|1     |can_split_can_top_split_0   |     1|
+|2     |can_split_can_top_split_1   |     1|
+|3     |can_split_can_transceiver_0 |     2|
+|5     |IBUF                        |    26|
+|6     |OBUF                        |    16|
++------+----------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 2267.285 ; gain = 567.469 ; free physical = 6055 ; free virtual = 33260
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 2267.285 ; gain = 494.496 ; free physical = 6055 ; free virtual = 33260
+Synthesis Optimization Complete : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 2267.285 ; gain = 567.469 ; free physical = 6055 ; free virtual = 33260
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2267.285 ; gain = 0.000 ; free physical = 6055 ; free virtual = 33259
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2267.285 ; gain = 0.000 ; free physical = 6346 ; free virtual = 33545
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 5a25baee
+INFO: [Common 17-83] Releasing license: Synthesis
+27 Infos, 9 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:15 . Memory (MB): peak = 2267.285 ; gain = 949.125 ; free physical = 6346 ; free virtual = 33545
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 1864.647; main = 1534.667; forked = 378.528
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 3233.590; main = 2235.238; forked = 998.352
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2267.285 ; gain = 0.000 ; free physical = 6346 ; free virtual = 33545
+INFO: [Common 17-1381] The checkpoint '/home/lic9/prj/MCUCANDRIVER/vivadoCanDriverTest/vivadoCanDriverTest.runs/synth_1/can_split_wrapper.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file can_split_wrapper_utilization_synth.rpt -pb can_split_wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Jan  4 18:20:25 2024...

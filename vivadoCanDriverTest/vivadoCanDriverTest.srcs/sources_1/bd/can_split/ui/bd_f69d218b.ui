@@ -1,0 +1,50 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.912012",
+   "Default View_TopLeft":"-455,-90",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace port port-id_clk_0 -pg 1 -lvl 0 -x -310 -y -50 -defaultsOSRD
+preplace port port-id_cs_can_1 -pg 1 -lvl 0 -x -310 -y 110 -defaultsOSRD
+preplace port port-id_ale_1 -pg 1 -lvl 0 -x -310 -y 30 -defaultsOSRD
+preplace port port-id_rd_1 -pg 1 -lvl 0 -x -310 -y 50 -defaultsOSRD
+preplace port port-id_wr_1 -pg 1 -lvl 0 -x -310 -y 70 -defaultsOSRD
+preplace port port-id_cs_can_2 -pg 1 -lvl 0 -x -310 -y 400 -defaultsOSRD
+preplace port port-id_ale_2 -pg 1 -lvl 0 -x -310 -y 320 -defaultsOSRD
+preplace port port-id_rd_2 -pg 1 -lvl 0 -x -310 -y 340 -defaultsOSRD
+preplace port port-id_wr_2 -pg 1 -lvl 0 -x -310 -y 360 -defaultsOSRD
+preplace port port-id_rst_0 -pg 1 -lvl 0 -x -310 -y -70 -defaultsOSRD
+preplace portBus port_i_1 -pg 1 -lvl 0 -x -310 -y 90 -defaultsOSRD
+preplace portBus port_o_1 -pg 1 -lvl 3 -x 710 -y 40 -defaultsOSRD
+preplace portBus port_i_2 -pg 1 -lvl 0 -x -310 -y 380 -defaultsOSRD
+preplace portBus port_o_2 -pg 1 -lvl 3 -x 710 -y 330 -defaultsOSRD
+preplace inst can_top_split_0 -pg 1 -lvl 1 -x 150 -y 80 -defaultsOSRD
+preplace inst can_top_split_1 -pg 1 -lvl 1 -x 150 -y 370 -defaultsOSRD
+preplace inst can_transceiver_0 -pg 1 -lvl 2 -x 550 -y 130 -defaultsOSRD
+preplace inst can_transceiver_1 -pg 1 -lvl 2 -x 550 -y 370 -defaultsOSRD -resize 180 136
+preplace netloc clk_0_1 1 0 2 -20J -50 410J
+preplace netloc can_transceiver_0_can_tx 1 1 2 440 30 660
+preplace netloc can_transceiver_1_can_tx 1 1 2 430 20 680
+preplace netloc can_transceiver_1_rx 1 0 3 0 240 NJ 240 660
+preplace netloc can_transceiver_0_rx 1 0 3 0 -60 NJ -60 670
+preplace netloc can_top_split_0_tx_o 1 1 1 300 60n
+preplace netloc can_top_split_1_tx_o 1 1 1 300 350n
+preplace netloc cs_can_i_0_1 1 0 1 NJ 110
+preplace netloc ale_i_0_1 1 0 1 NJ 30
+preplace netloc port_0_i_0_1 1 0 1 NJ 90
+preplace netloc rd_i_0_1 1 0 1 NJ 50
+preplace netloc wr_i_0_1 1 0 1 NJ 70
+preplace netloc can_top_split_0_port_0_o 1 1 2 NJ 40 NJ
+preplace netloc cs_can_i_1_1 1 0 1 NJ 400
+preplace netloc ale_i_1_1 1 0 1 NJ 320
+preplace netloc port_0_i_1_1 1 0 1 NJ 380
+preplace netloc rd_i_1_1 1 0 1 NJ 340
+preplace netloc wr_i_1_1 1 0 1 NJ 360
+preplace netloc can_top_split_1_port_0_o 1 1 2 300J 280 690J
+preplace netloc rst_i_0_1 1 0 2 -10 -70 420
+levelinfo -pg 1 -310 150 550 710
+pagesize -pg 1 -db -bbox -sgen -470 -120 880 500
+"
+}
+0
